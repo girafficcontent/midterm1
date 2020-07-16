@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<title>Pacific Northwest X-Ray</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css2?family=Lato&family=Roboto&family=Sriracha&display=swap" rel="stylesheet">
+	<link rel="icon" href="img/blacklogo.png">
+	<link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+	</head>
+
+	<body>
+	<!--NAVIGATION-->
+		<nav class="top">
+			<a class="logo" href="index.html">PNWX</a>
+			<input class="menu" type="checkbox" id="menu">
+			<label class="arrow" for="menu"><div class="arrowdown"></div></label>
+			<a href="#" class="cart"><i class="fas fa-shopping-cart"></i></a>
+			<ul class="drop">
+				<li><a href="index.html">Home</a></li>
+				<li><a class="active" href="catalog.html">Catalog</a></li>
+				<li><a href="contact.html">Contact Us</a></li>
+			</ul>
+		</nav>
+	<!--BANNER-->
+        <div class="banner">
+            <img src="img/banner.jpg" alt="banner">
+        </div>
+		<div class="wrapper">
+			<h1>Accessories</h1>
+			<div class="container">
+				<button class="btn"><a href="catalog2.html">Cabinetry & Storage</a></button>
+				<button class="btn"><a href="#">Cassettes/CR Plate Storage</a></button>
+				<button class="btn"><a href="#">Cassette/Film/Case Carts</a></button>
+				<button class="btn"><a href="#">Cassette Holders & Film Cases</a></button>
+				<button class="btn"><a href="#">Exam Room Products</a></button>
+				<button class="btn"><a href="#">More Accessory Listings...</a></button>
+			</div>
+			<h1>Equipment</h1>
+			<div class="container">
+				<button class="btn"><a href="#">Darkroom Equipment</a></button>
+				<button class="btn"><a href="#">Film Processors</a></button>
+				<button class="btn"><a href="#">Patient Care Equipment</a></button>
+				<button class="btn"><a href="#">Portable Radiographic</a></button>
+				<button class="btn"><a href="#">Power and Exam Tables</a></button>
+				<button class="btn"><a href="#">More Equipment Listings...</a></button>
+			</div>
+			<h1>Supplies</h1>
+			<div class="container">
+				<button class="btn"><a href="#">Custom Printed CD Media and Packaging</a></button>
+				<button class="btn"><a href="#">Jacket Labels</a></button>
+				<button class="btn"><a href="#">Jacket Dispensers</a></button>
+				<button class="btn"><a href="#">Film Envelopes</a></button>
+				<button class="btn"><a href="#">Processing Chemistry</a></button>
+				<button class="btn"><a href="#">X-Ray Screen Cleaner</a></button>
+			</div>
+			<h1>Parts</h1>
+			<div class="container">
+				<button class="btn"><a href="#">X-Ray Grids</a></button>
+				<button class="btn"><a href="#">Collimator Lamps</a></button>
+				<button class="btn"><a href="#">High Voltage Cables</a></button>
+			</div>
+		</div>
+	</body>
+	<footer>Copyright &copy; 2020 Kayla Grainger</footer>
+</html>
